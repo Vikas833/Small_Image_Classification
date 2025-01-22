@@ -10,18 +10,21 @@ Table of Contents
 6.	Dataset
 ________________________________________
 Overview
+
 Small image classification is a common task in computer vision, where the goal is to classify images with smaller dimensions, often requiring efficient models to achieve high accuracy. This project aims to:
 •	Build a robust pipeline for image classification.
 •	Explore preprocessing techniques for small images.
 •	Train and evaluate models using real-world datasets.
 ________________________________________
 Features
+
 •	Image Preprocessing: Resize, normalize, and augment small images for better model performance.
 •	Classification Models: Supports different classifiers, including CNNs and transfer learning.
 •	Evaluation Metrics: Provides detailed accuracy, precision, recall, and F1-score for model evaluation.
 •	Modular Code: Easy-to-understand and modular code for extensibility.
 ________________________________________
 Technologies Used
+
 •	Programming Language: Python
 •	Libraries:
 o	TensorFlow/Keras
@@ -31,6 +34,7 @@ o	Matplotlib
 o	Scikit-learn
 ________________________________________
 Setup and Installation
+
 Follow these steps to set up the project locally:
 1.	Clone the Repository:
 2.	git clone https://github.com/Vikas833/Small_Image_Classification.git
@@ -45,6 +49,7 @@ pip install -r requirements.txt
 python train.py
 ________________________________________
 Usage
+
 1.	Place your dataset in the correct format inside the data/ folder.
 2.	Run the preprocessing script to prepare your data:
 python preprocess.py
@@ -54,6 +59,7 @@ python train.py
 python evaluate.py
 ________________________________________
 Dataset
+
 The project supports custom datasets of small images. Ensure your dataset follows this structure:
 data/
     train/
